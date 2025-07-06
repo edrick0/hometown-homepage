@@ -1,0 +1,116 @@
+::selection {
+    background-color: rgb(132, 226, 88);
+    color: white;
+}
+
+::marker {
+    content: "↪";
+}
+
+body {
+    margin: 0;
+    background: #e6ede9;
+    background: linear-gradient(180deg,rgb(239, 242, 240) 0%, rgb(219, 220, 211) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.glob-pad {
+    padding: 24px 24px 0 24px;
+}
+
+.glob-pad h3 {
+    text-align: start;
+}
+
+p {
+    font-size: 18px;
+    width: 450px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3, li, a {
+    font-size: 20px;
+}
+
+
+ul{
+  padding: 0;
+  margin: 0 auto;
+  max-width: fit-content;
+  text-align: start;
+  list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
+#links {
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: 25% 75%;
+    width: 100%;
+    height: 400px;
+    padding: 24px;
+}
+
+.to-do h2 {
+    text-align: center;
+}
+
+.to-do-img {
+    width: 400px;
+    height: auto;
+    border: 2px ridge black;
+    border-radius: 8px;
+}
+
+.to-do-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 80px;
+}
+
+#food {
+    text-align: end;
+}
+
+#info h2 {
+    text-align: center;
+}
+
+#info-flex {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    column-gap: 20px;
+}
+
+#social {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#avatar {
+    margin: 0 auto;
+    background-image: url("images/edric.png");
+    background-position: center;
+    background-size: cover;
+    border: 3px ridge rgb(48, 49, 46);
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+#avatar:hover {
+    background-image: url("images/gif.gif");
+}
